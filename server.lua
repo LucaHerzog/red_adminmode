@@ -4,8 +4,8 @@ AdminList = {}
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-TriggerEvent('es:addGroupCommand', 'adminmode', 'mod', function(source, args, user)
-	local found = nil
+ESX.RegisterCommand('adminmode', 'admin', function(source, args, user)
+    local found = nil
 	local xPlayer = ESX.GetPlayerFromId(source)
 	local name = GetPlayerName(source)
 		for i, v in ipairs(AdminList) do
@@ -26,7 +26,7 @@ TriggerEvent('es:addGroupCommand', 'adminmode', 'mod', function(source, args, us
 			TriggerClientEvent('red_adminmode:setGodmode', source, false)
 			TriggerClientEvent('red_adminmode:zivil', source)
 		end
-end, function(source, args, user)
+end, function(source, args, user),
     TriggerClientEvent('chat:addMessage', source, { args = { '^1SYSTEM', 'You have no permissions to use this command!' } })
 end, {help = 'Toggle the admin duty.'})
 

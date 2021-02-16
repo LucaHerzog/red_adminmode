@@ -21,6 +21,9 @@ Installation:
 Use:
 - Type /adminmode in the chat. All players with the group mod or higher can execute this command.
 
+Here is the fivem forum post:
+https://forum.cfx.re/t/esx-adminmode-script/2226052
+
 This script is welcome to use.
 Please write the bugs on my discord server.
 

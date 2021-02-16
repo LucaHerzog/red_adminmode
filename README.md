@@ -11,7 +11,7 @@ Functions:
 - Red Admin Suit.
 
 Requirements:
-- Essentialmode (https://github.com/kanersps/essentialmode)
+- [es_extended](https://github.com/esx-framework/es_extended/tree/v1-final)
 
 Installation:
 - Download the file and put it into your resource folder.
@@ -19,7 +19,7 @@ Installation:
 - Restart the server and the plugin is ready.
 
 Use:
-- Type /adminmode in the chat. All players with the group mod or higher can execute this command.
+- Type /adminmode in the chat. All players with the group admin.
 
 Here is the fivem forum post:
 https://forum.cfx.re/t/esx-adminmode-script/2226052

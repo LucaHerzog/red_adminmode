@@ -10,6 +10,17 @@ Functions:
 - Godmode.
 - Red Admin Suit.
 
+Requirements:
+- Essentialmode (https://github.com/kanersps/essentialmode)
+
+Installation:
+- Download the file and put it into your resource folder.
+- Add "start red_adminmode" in your server.cfg.
+- Restart the server and the plugin is ready.
+
+Use:
+- Type /adminmode in the chat. All players with the group mod or higher can execute this command.
+
 This script is welcome to use.
 Please write the bugs on my discord server.
 

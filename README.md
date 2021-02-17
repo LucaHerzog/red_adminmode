@@ -12,6 +12,8 @@ Functions:
 
 Requirements:
 - Essentialmode (https://github.com/kanersps/essentialmode)
+- esx_skin
+- skinchanger
 
 Installation:
 - Download the file and put it into your resource folder.
